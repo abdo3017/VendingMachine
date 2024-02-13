@@ -11,7 +11,6 @@
   ## How to Setup Project?
   ### Run the below SQL script in your database
   ```sql
-  GO
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
