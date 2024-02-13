@@ -10,7 +10,8 @@
 
   ## How to Setup Project?
   ### Run the below SQL script in your database
-  ```sql
+```sql
+GO
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -241,6 +242,5 @@ GO
 ALTER TABLE [dbo].[AspNetUserTokens] CHECK CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId]
 GO
 
-  ```
-  ```sql
+```
 
