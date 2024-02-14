@@ -12,7 +12,7 @@
 - clean code
 
 ## How to Setup Project?
-- ### Update **DefaultConnection** in **ConnectionStrings** section with yor database connection string in the **appsettings.json** file
+- ### Update **DefaultConnection** in **ConnectionStrings** sections and **connectionString** in **Serilog** section with yor database connection string in the **appsettings.json** file
 - ### Run the below SQL script in your database
 
 ```sql
