@@ -1,15 +1,17 @@
-# FlapKap
+# FlapKap Task
 ## In this is Task i used some Topics:
-- 3 Tiers architecture
-- Identity Microsoft for authentication/authurization
-- JWT Token
-- DI for services
-- Repository pattern
-- EF Core
-- XUnit for testing APIs
+- ### 3 Tiers architecture
+- ### Identity Microsoft for authentication/authurization by user and his role
+- ### JWT Token
+- ### DI for services
+- ### Repository pattern
+- ### EF Core
+- ### XUnit for testing APIs
+- clean code
 
 ## How to Setup Project?
 ### Run the below SQL script in your database
+
 ```sql
 GO
 SET ANSI_NULLS ON
@@ -251,7 +253,7 @@ GO
 ## How to use APIs?
 ### Throw postman collection [URL](https://documenter.getpostman.com/view/9247279/2sA2r53kFG) you can run any end point with custom data
 
-## Important APIs assumtion:
+## Important APIs assumtions:
 - ### Deposit:
   - I assumed the buyer can add multible coins at once with only 5, 10, 20, 50 and 100 cent coins into their vending machine account
 - ### Buy:
