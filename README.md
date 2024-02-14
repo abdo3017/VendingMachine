@@ -241,7 +241,20 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[AspNetUserTokens] CHECK CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId]
 GO
-```
-## How to use APIs?
-Throw postman collection [URL](https://documenter.getpostman.com/view/9247279/2sA2r53kFG) you can run any end point with custom data
 
+GO
+INSERT INTO [dbo].[VendingMachineCoins]([Coin] ,[AvailableAmount])
+     VALUES (5,0),(10,0),(20,0),(50,0),(100,0)
+GO
+```
+
+## How to use APIs?
+### Throw postman collection [URL](https://documenter.getpostman.com/view/9247279/2sA2r53kFG) you can run any end point with custom data
+
+## Important APIs assumtion:
+- ### Deposit:
+  - I assumed the buyer can add multible coins at once with only 5, 10, 20, 50 and 100 cent coins into their vending machine account
+- ### Buy:
+  - for "change if there’s any (in 5, 10, 20, 50 and 100 cent coins)" I assumed this chane is the remaining of his coins with only values(5, 10, 20, 50 and 100) after buying the products and i added the **VendingMachineCoins** table that refre for all coins values in vending machine and their amount
+- ### Reset:
+   - I assumed when resetting the deposit it will return all available deposit in his acount
