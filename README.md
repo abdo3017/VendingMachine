@@ -10,7 +10,8 @@
 - clean code
 
 ## How to Setup Project?
-### Run the below SQL script in your database
+- ### Update **DefaultConnection** in **ConnectionStrings** section with yor database connection string in the **appsettings.json** file
+- ### Run the below SQL script in your database
 
 ```sql
 GO
