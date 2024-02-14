@@ -4,7 +4,7 @@
 - ### Identity Microsoft for authentication/authurization by user and his role
 - ### JWT Token
 - ### Action Filter for validate body serialzation
-  - ### Exeption Filter
+- ### Exeption Filter
 - ### DI for services
 - ### Repository pattern
 - ### EF Core
