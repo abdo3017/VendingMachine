@@ -8,8 +8,8 @@
 - EF Core
 - XUnit for testing APIs
 
-  ## How to Setup Project?
-  ### Run the below SQL script in your database
+## How to Setup Project?
+### Run the below SQL script in your database
 ```sql
 GO
 SET ANSI_NULLS ON
@@ -241,6 +241,7 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[AspNetUserTokens] CHECK CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId]
 GO
-
 ```
+## How to use APIs?
+Throw postman collection [URL](https://documenter.getpostman.com/view/9247279/2sA2r53kFG) you can run any end point with custom data
 
