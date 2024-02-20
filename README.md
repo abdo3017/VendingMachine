@@ -16,6 +16,7 @@
 - ### Run the below SQL script in your database
 
 ```sql
+CREATE DATABASE FlapKap
 GO
 SET ANSI_NULLS ON
 GO
